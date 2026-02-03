@@ -1,0 +1,20 @@
+reference_genome: ../../reference_genome/human.fa
+output_folder: ./
+
+bwa: bwa
+bedtools: bedtools
+
+samples:
+  control:
+    target: 
+    barcode1: CCCCCCTG
+    barcode2: CCAATCTG
+    description: Control
+
+  P459-DH-BC1-K562-S1144-P2238-0.3w-1:
+    target: GGTGAGTGAGTGTGTGCGTGNGG
+    barcode1: AACCTCTT
+    barcode2: CCAATCTG
+    description: P459-DH-BC1-K562-S1144-P2238-0.3w-1
+
+  

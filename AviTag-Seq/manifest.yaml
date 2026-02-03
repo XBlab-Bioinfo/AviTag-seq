@@ -1,0 +1,23 @@
+reference_genome: ../reference_genome/human.fa
+output_folder: ./
+ 
+bwa: bwa
+bedtools: bedtools
+
+data1: []
+data2: []
+
+samples:
+ 
+    P373-BC1-EdiGene-T-test5-A1:
+        target: 
+        barcode1: ACTTAAAC
+        barcode2: CAGACCCT
+        description: P373-BC1-EdiGene-T-test5-A1
+ 
+    P373-BC2-EdiGene-T-test5-A2:
+        target: 
+        barcode1: TGACCCTT
+        barcode2: CAGACCCT
+        description: P373-BC2-EdiGene-T-test5-A2
+ 
